@@ -1,0 +1,52 @@
+.board-container{
+  text-align: center;
+}
+.title{
+  font-size: 50px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title span{
+  color: rgb(89, 0, 255);
+}
+.reset{
+  width: 150px;
+  height: 80px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background: rgb(89, 0, 255);
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  color: aliceblue;
+
+}
+.board{
+  display: flex;
+  margin: auto;
+  height: 450px;
+  width: 564px;
+  justify-content: center;
+  align-items: center;
+}
+.square{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 180px;
+  background: rgb(208, 190, 240);
+  border: 2px solid rgb(188, 155, 250);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.square h2{
+  font-size: 70px;
+  font-weight: bold;
+  color: aliceblue;
+}
