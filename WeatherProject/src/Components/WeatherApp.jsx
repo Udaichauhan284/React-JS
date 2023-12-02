@@ -20,10 +20,10 @@ function WeatherApp() {
 
   const search = async () => {
     try {
-      const response = await fetch(apiURL);
+      const response = await fetch(apiURL); //fetching the URL
 
-      if (response.ok) {
-        const data = await response.json();
+      if (response.ok) { //checking the response
+        const data = await response.json(); //change that response to json
         setWeatherData(data);
         setError(null);
         setCity("");
