@@ -1,0 +1,18 @@
+.contact_header{
+  margin-top: 20px;
+  margin-left: 188px;
+  
+}
+.contact_header h1{
+  font-size: 60px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 5px;
+  width: 400px;
+}
+.contact_header p{
+  color: #5a5959;
+  font-size: 18px;
+  font-weight: 400;
+  width: 975px;
+}

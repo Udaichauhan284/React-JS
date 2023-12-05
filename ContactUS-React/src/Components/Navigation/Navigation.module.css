@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.navigation ul{
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.navigation ul li:hover{
+  color: blueviolet;
+}
+.navigation img{
+  margin-top: 25px;
+  width: 250px;
+}
