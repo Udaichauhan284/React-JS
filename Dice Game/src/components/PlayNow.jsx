@@ -1,5 +1,5 @@
 import React from 'react';
-import bigDiceIcon from './image/big_dice.png';
+import bigDiceIcon from '../../public/image/big_dice.png';
 import styled from 'styled-components';
 import {Button} from '../components/styled/Button.jsx';
 function PlayNow({toggle}){
